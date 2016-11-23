@@ -5,7 +5,7 @@
 ** Login   <bongol_b@epitech.net>
 **
 ** Started on  Tue Nov 22 17:29:12 2016 Berdrigue Bongolo-Beto
-** Last update Tue Nov 22 18:00:54 2016 Berdrigue Bongolo-Beto
+** Last update Tue Nov 22 18:19:31 2016 Berdrigue Bongolo-Beto
 */
 
 #include <string.h>
@@ -16,6 +16,7 @@ int		main()
 {
   char		*s;
 
+  exit(1);
   printf("Start\n");
   s = malloc(sizeof(*s) * 10);
   if (s == NULL)
