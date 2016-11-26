@@ -5,7 +5,7 @@
 ## Login   <bongol_b@epitech.net>
 ## 
 ## Started on  Tue Nov 22 17:46:22 2016 Berdrigue Bongolo-Beto
-## Last update Tue Nov 22 18:11:00 2016 Berdrigue Bongolo-Beto
+## Last update Thu Nov 24 20:36:50 2016 Berdrigue Bongolo-Beto
 ##
 
 echo "Run tests."

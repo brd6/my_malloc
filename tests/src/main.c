@@ -5,7 +5,7 @@
 ** Login   <bongol_b@epitech.net>
 **
 ** Started on  Tue Nov 22 17:29:12 2016 Berdrigue Bongolo-Beto
-** Last update Tue Nov 22 18:19:31 2016 Berdrigue Bongolo-Beto
+** Last update Sun Nov 27 00:17:00 2016 Berdrigue Bongolo-Beto
 */
 
 #include <string.h>
@@ -15,14 +15,22 @@
 int		main()
 {
   char		*s;
+  char		*p;
 
-  exit(1);
   printf("Start\n");
   s = malloc(sizeof(*s) * 10);
+  p = malloc(sizeof(*s) * 10);
   if (s == NULL)
     return (printf("s null\n"), 1);
-
-  strcpy(s, "berdrigue");
+  strcpy(s,"test !");
   printf("%s\n", s);
+  free(s);
+  free(p);
+  p = malloc(sizeof(*s) * 11);
+  p = malloc(sizeof(*s) * 11);
+  p = malloc(sizeof(*s) * 11);
+  p = malloc(sizeof(*s) * 110);
+  /* show_alloc_mem(); */
+  //free(s);
   return (0);
 }
