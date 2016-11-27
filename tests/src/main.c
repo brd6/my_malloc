@@ -5,7 +5,7 @@
 ** Login   <bongol_b@epitech.net>
 **
 ** Started on  Tue Nov 22 17:29:12 2016 Berdrigue Bongolo-Beto
-** Last update Sun Nov 27 00:17:00 2016 Berdrigue Bongolo-Beto
+** Last update Sun Nov 27 17:44:58 2016 Berdrigue Bongolo-Beto
 */
 
 #include <string.h>
@@ -27,10 +27,15 @@ int		main()
   free(s);
   free(p);
   p = malloc(sizeof(*s) * 11);
+  free(p);
   p = malloc(sizeof(*s) * 11);
+  //free(p);
   p = malloc(sizeof(*s) * 11);
+  //free(p);
   p = malloc(sizeof(*s) * 110);
+  //free(p);
   /* show_alloc_mem(); */
   //free(s);
+  show_alloc_mem();
   return (0);
 }

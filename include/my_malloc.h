@@ -5,7 +5,7 @@
 ** Login   <bongol_b@epitech.net>
 **
 ** Started on  Tue Nov 22 17:11:29 2016 Berdrigue Bongolo-Beto
-** Last update Sat Nov 26 23:43:53 2016 Berdrigue Bongolo-Beto
+** Last update Sun Nov 27 17:10:44 2016 Berdrigue Bongolo-Beto
 */
 
 #ifndef MY_MALLOC_H_
@@ -22,13 +22,13 @@
 typedef struct		s_header_data
 {
   size_t		size;
-  int			is_use;
+  size_t		true_size;
+  int			is_used;
   struct s_header_data	*prev;
   struct s_header_data	*next;
 }			t_header_data;
 
-extern t_header_data	*free_lists;
-extern t_header_data	*used_lists;
+extern t_header_data	*head_lists;
 
 void		*malloc(size_t size);
 void		*realloc(void *ptr, size_t size);
